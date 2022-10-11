@@ -1,0 +1,5 @@
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Modules\bin\Debug\Pisirgen.RSTO.Modules.dll
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Modules\bin\Debug\Pisirgen.RSTO.Modules.pdb
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Modules\obj\Debug\Pisirgen.RSTO.Modules.csprojResolveAssemblyReference.cache
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Modules\obj\Debug\Pisirgen.RSTO.Modules.dll
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Modules\obj\Debug\Pisirgen.RSTO.Modules.pdb

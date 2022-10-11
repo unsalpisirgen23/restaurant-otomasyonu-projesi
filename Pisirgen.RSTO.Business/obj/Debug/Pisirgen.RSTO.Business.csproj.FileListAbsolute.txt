@@ -1,0 +1,10 @@
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Business\bin\Debug\Pisirgen.RSTO.Business.dll
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Business\bin\Debug\Pisirgen.RSTO.Business.pdb
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Business\bin\Debug\DAL.dll
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Business\bin\Debug\EntityFramework.dll
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Business\bin\Debug\DAL.pdb
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Business\bin\Debug\DAL.dll.config
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Business\bin\Debug\EntityFramework.xml
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Business\obj\Debug\Pisirgen.RSTO.Business.csprojResolveAssemblyReference.cache
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Business\obj\Debug\Pisirgen.RSTO.Business.dll
+C:\Users\win7\Desktop\Pisirgen.RSTO\Pisirgen.RSTO.Business\obj\Debug\Pisirgen.RSTO.Business.pdb

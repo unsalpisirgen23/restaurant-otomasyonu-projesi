@@ -1,0 +1,276 @@
+﻿namespace BackOffice.Forms.Products
+{
+    partial class FrmProductAdd
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.groupControl4 = new DevExpress.XtraEditors.GroupControl();
+            this.ComGroup = new System.Windows.Forms.ComboBox();
+            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.ComStatus = new System.Windows.Forms.ComboBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.TxtName = new DevExpress.XtraEditors.TextEdit();
+            this.label1 = new System.Windows.Forms.Label();
+            this.TxtPrice = new DevExpress.XtraEditors.TextEdit();
+            this.label3 = new System.Windows.Forms.Label();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.BtnAdd = new DevExpress.XtraEditors.SimpleButton();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).BeginInit();
+            this.groupControl4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
+            this.groupControl2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtName.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtPrice.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            this.groupControl1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // groupControl4
+            // 
+            this.groupControl4.Controls.Add(this.ComGroup);
+            this.groupControl4.Controls.Add(this.groupControl2);
+            this.groupControl4.Controls.Add(this.label4);
+            this.groupControl4.Controls.Add(this.ComStatus);
+            this.groupControl4.Controls.Add(this.label2);
+            this.groupControl4.Controls.Add(this.TxtName);
+            this.groupControl4.Controls.Add(this.label1);
+            this.groupControl4.Controls.Add(this.TxtPrice);
+            this.groupControl4.Controls.Add(this.label3);
+            this.groupControl4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.groupControl4.Location = new System.Drawing.Point(0, 0);
+            this.groupControl4.Name = "groupControl4";
+            this.groupControl4.Size = new System.Drawing.Size(551, 502);
+            this.groupControl4.TabIndex = 18;
+            this.groupControl4.Text = "Bilgiler";
+            // 
+            // ComGroup
+            // 
+            this.ComGroup.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ComGroup.FormattingEnabled = true;
+            this.ComGroup.Location = new System.Drawing.Point(89, 435);
+            this.ComGroup.Name = "ComGroup";
+            this.ComGroup.Size = new System.Drawing.Size(442, 27);
+            this.ComGroup.TabIndex = 20;
+            // 
+            // groupControl2
+            // 
+            this.groupControl2.Controls.Add(this.pictureBox1);
+            this.groupControl2.Location = new System.Drawing.Point(89, 42);
+            this.groupControl2.Name = "groupControl2";
+            this.groupControl2.Size = new System.Drawing.Size(168, 135);
+            this.groupControl2.TabIndex = 18;
+            this.groupControl2.Text = "Resim Seç";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 20);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(164, 113);
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label4.Location = new System.Drawing.Point(29, 436);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(54, 18);
+            this.label4.TabIndex = 19;
+            this.label4.Text = "Grup : ";
+            // 
+            // ComStatus
+            // 
+            this.ComStatus.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ComStatus.FormattingEnabled = true;
+            this.ComStatus.Location = new System.Drawing.Point(89, 294);
+            this.ComStatus.Name = "ComStatus";
+            this.ComStatus.Size = new System.Drawing.Size(442, 27);
+            this.ComStatus.TabIndex = 18;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label2.Location = new System.Drawing.Point(16, 294);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(67, 18);
+            this.label2.TabIndex = 17;
+            this.label2.Text = "Durum : ";
+            // 
+            // TxtName
+            // 
+            this.TxtName.Location = new System.Drawing.Point(89, 227);
+            this.TxtName.Margin = new System.Windows.Forms.Padding(7);
+            this.TxtName.Name = "TxtName";
+            this.TxtName.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtName.Properties.Appearance.Options.UseFont = true;
+            this.TxtName.Size = new System.Drawing.Size(442, 26);
+            this.TxtName.TabIndex = 14;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Location = new System.Drawing.Point(37, 228);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(42, 18);
+            this.label1.TabIndex = 13;
+            this.label1.Text = "Adı : ";
+            // 
+            // TxtPrice
+            // 
+            this.TxtPrice.Location = new System.Drawing.Point(89, 364);
+            this.TxtPrice.Margin = new System.Windows.Forms.Padding(7);
+            this.TxtPrice.Name = "TxtPrice";
+            this.TxtPrice.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.TxtPrice.Properties.Appearance.Options.UseFont = true;
+            this.TxtPrice.Properties.Mask.EditMask = "d";
+            this.TxtPrice.Size = new System.Drawing.Size(442, 26);
+            this.TxtPrice.TabIndex = 16;
+            this.TxtPrice.TextChanged += new System.EventHandler(this.TxtPrice_TextChanged);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label3.Location = new System.Drawing.Point(28, 365);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(51, 18);
+            this.label3.TabIndex = 15;
+            this.label3.Text = "Fiyatı :";
+            // 
+            // groupControl1
+            // 
+            this.groupControl1.Controls.Add(this.simpleButton2);
+            this.groupControl1.Controls.Add(this.simpleButton1);
+            this.groupControl1.Controls.Add(this.BtnAdd);
+            this.groupControl1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.groupControl1.Location = new System.Drawing.Point(0, 502);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(551, 78);
+            this.groupControl1.TabIndex = 19;
+            this.groupControl1.Text = "İşlemler";
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.simpleButton2.Appearance.Options.UseFont = true;
+            this.simpleButton2.Location = new System.Drawing.Point(433, 29);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(98, 37);
+            this.simpleButton2.TabIndex = 20;
+            this.simpleButton2.Text = "Kapat";
+            this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
+            // 
+            // simpleButton1
+            // 
+            this.simpleButton1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.simpleButton1.Appearance.Options.UseFont = true;
+            this.simpleButton1.Location = new System.Drawing.Point(182, 30);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(98, 37);
+            this.simpleButton1.TabIndex = 19;
+            this.simpleButton1.Text = "Ekle Kapat";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
+            // BtnAdd
+            // 
+            this.BtnAdd.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.BtnAdd.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnAdd.Appearance.Options.UseFont = true;
+            this.BtnAdd.Location = new System.Drawing.Point(31, 29);
+            this.BtnAdd.Name = "BtnAdd";
+            this.BtnAdd.Size = new System.Drawing.Size(98, 37);
+            this.BtnAdd.TabIndex = 18;
+            this.BtnAdd.Text = "Ekle Yeni";
+            this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click_1);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // FrmProductAdd
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(551, 580);
+            this.Controls.Add(this.groupControl4);
+            this.Controls.Add(this.groupControl1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.Name = "FrmProductAdd";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Ürün Ekleme İşlemi";
+            this.Load += new System.EventHandler(this.FrmProductAdd_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl4)).EndInit();
+            this.groupControl4.ResumeLayout(false);
+            this.groupControl4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
+            this.groupControl2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtName.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TxtPrice.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
+            this.groupControl1.ResumeLayout(false);
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+        private DevExpress.XtraEditors.GroupControl groupControl4;
+        private System.Windows.Forms.ComboBox ComGroup;
+        private DevExpress.XtraEditors.GroupControl groupControl2;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox ComStatus;
+        private System.Windows.Forms.Label label2;
+        private DevExpress.XtraEditors.TextEdit TxtName;
+        private System.Windows.Forms.Label label1;
+        private DevExpress.XtraEditors.TextEdit TxtPrice;
+        private System.Windows.Forms.Label label3;
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton BtnAdd;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+    }
+}

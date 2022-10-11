@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{6236FEC5-B7CF-4C33-96D4-D784997D27ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackOffice", "BackOffice\BackOffice.csproj", "{D0375D57-8B07-4D66-A296-EA055AC27E0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontOffice", "FrontOffice\FrontOffice.csproj", "{0A4BEB95-A217-43E7-B722-80FDC16774A7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6236FEC5-B7CF-4C33-96D4-D784997D27ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6236FEC5-B7CF-4C33-96D4-D784997D27ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6236FEC5-B7CF-4C33-96D4-D784997D27ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6236FEC5-B7CF-4C33-96D4-D784997D27ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0375D57-8B07-4D66-A296-EA055AC27E0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0375D57-8B07-4D66-A296-EA055AC27E0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0375D57-8B07-4D66-A296-EA055AC27E0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0375D57-8B07-4D66-A296-EA055AC27E0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A4BEB95-A217-43E7-B722-80FDC16774A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A4BEB95-A217-43E7-B722-80FDC16774A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A4BEB95-A217-43E7-B722-80FDC16774A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A4BEB95-A217-43E7-B722-80FDC16774A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
